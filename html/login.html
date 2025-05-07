@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+
+</head>
+<body>
+    <div class="overlay">
+    
+            <div id="allLogin">
+                <div class="login">
+                    <form name='form-login' action="../html/levels.html" onsubmit="check()">
+                        <h1 class="glow">SIGN IN</h1>
+                        <i class="fa fa-user-circle fa-lg"></i>
+                        <input type="email" id="userName" placeholder="@Username" required><br/>
+                        <i class="fa fa-key fa-lg"></i>
+                        <input type="password" id="userPw" placeholder="Password" required><br/>
+                        <button  class="log-in" type="submit">Log In</button>
+                        <button class="btn submits sign-up" onclick="redirectToPage(event)">
+                        <i class="fa fa-user-plus" aria-hidden="true"></i>
+                        Sign Up</button>
+                    </form>
+                </div>
+            </div>
+            <script >
+                function redirectToPage(event) {
+                    event.preventDefault();
+                  window.location.href = "../html/register.html";
+                }
+                </script>
+            <script type="text/javascript" src="../entrancePage/login.js"></script>
+    
+
+    </div>
+    <script src="../js/login.js"></script>
+    <script src="../js/register.js"></script>
+</body>
+
+</html>

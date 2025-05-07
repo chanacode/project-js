@@ -1,0 +1,156 @@
+body
+{
+    
+ height: 850px;
+ background-image: url(../images/רקע\ בלונים\ 2.png);
+  background-size: cover; 
+ background-repeat: no-repeat;
+ margin-top: 5%;
+background-size:100%;  
+}
+
+#divAllGame
+{
+display: block;
+}
+
+#allDivPictures
+{
+    display: flex;
+  justify-content: center;
+  
+}
+
+#imageContainer , #imageContainer2
+ {
+
+    width:280px;
+    height: 260px;
+    border: 1px solid black;
+    overflow: hidden;
+    margin-left: 3%;
+
+}
+
+#imageContainer img ,#imageContainer2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 15%;
+}
+
+#divPictures 
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+  margin-left:5%;
+  flex-wrap: wrap;
+  
+}
+
+#stopButton
+{
+width: 10%;
+margin-left: 47%;
+margin-top: 1%;
+margin-bottom: 5%;
+background-color: white;
+}
+
+
+
+button {
+    border: none;
+    background: none;
+    padding: 0;
+     }
+  
+  button img
+
+   {
+    width: 140px; 
+    height: 140px; 
+    margin: 3px;
+    border:  1px  solid black;
+visibility:hidden; 
+ 
+  }
+
+button.new img 
+  {
+   width: 140px; 
+   height: 140px; 
+margin: 3px;
+
+visibility:visible; 
+border:  1px  solid black;
+
+ }
+#tion
+{
+  border: 2px rgb(52, 117, 236) solid;
+  width: 130px;
+  height: 260px;
+ 
+}
+#isCorrect
+{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+#showDetails
+{
+    border: 5px black solid;
+    margin: 2px;
+    background-color: rgb(247, 247, 187);
+}
+
+#rotation
+{
+  border: 2px black solid;
+  margin: 2px;
+  height: 70px;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  margin-top: 15px;
+  background-color: rgb(255, 195, 195);
+}
+
+#points
+{
+  border: 2px black solid;
+  margin: 2px;
+  height: 30px;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  background-color: rgb(175, 233, 175);
+}
+
+#timer
+{
+    margin-top: 50px;
+  margin-left: 50px;
+  font-size: xx-large;
+  width: 150px;
+  height: 80px;
+  border: 2px black solid;
+  margin: 2px;
+  background-color: rgb(176, 230, 248);
+  align-items: center;
+}
+
+#record
+{
+  border: 2px black solid;
+  margin: 2px;
+  height: 30px;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  background-color: rgb(243, 202, 255);
+}

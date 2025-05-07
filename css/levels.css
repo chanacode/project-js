@@ -1,0 +1,44 @@
+body
+{
+    display: flex;
+    height: 850px;
+ background-image: url(../images/רקע\ 1.jfif);
+ /* background-size: cover; */
+ background-repeat: no-repeat;
+ margin-top: 5%;
+background-size:100%;
+}
+
+.levelsPicture
+{
+margin-left: 40%;
+margin-top: 10%;
+}
+button
+{
+   
+    /* border-radius:45%; */
+    /* justify-content: space-around; */
+    /* margin-top: 5%; */
+    padding: 10px 100px;
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5%;
+  margin-left: 33%;
+}
+button:hover {
+    background-color: white;
+    color: #4CAF50;
+  }
+  .instractions
+  {
+    background-color: #9ce79e;
+    padding: 10px 93px;
+  }

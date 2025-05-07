@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Lily+Script+One);
+body
+{
+    display: flex;
+    height: 850px;
+ background-image: url(../images/רקע\ 1.jfif);
+ 
+ background-repeat: no-repeat;
+ margin-top: 5%;
+background-size:100%;
+}
+.logo{
+    width: 50%;
+    height: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+    margin-bottom: -6%;
+}
+.imgFont{
+width: 100%;
+height: 80%;
+
+}
+
+ form{
+    width: 450px;
+    height: 500px;
+    border-radius: 5px;
+    margin: 8% auto;
+    box-shadow: 5px 10px 10px 10px #7f7c7c;
+    padding: 4%;
+    
+ }
+
+ header {
+    margin: 2% auto 10% auto;
+    text-align: center;
+    font-size: 25px;
+
+}
+header h2 {
+    font-size: 60px;
+    font-family:'Lily Script One', cursive;
+    margin-top: -50px;
+}
+
+input {
+    width: 280px;
+    height: 50px;
+    margin-top: 10%;
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+    outline: none;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 5px;
+    margin-right: 20px;
+    
+}
+button {
+    display: inline-block;
+    color:white;
+
+    width: 280px;
+    height: 50px;
+
+    padding: 0 30px;
+    background:orangered;
+    border-radius: 5px;
+
+    outline: none;
+    border: none;
+
+    cursor: pointer;
+    text-align: center;
+    margin: 4% auto;
+    letter-spacing: 0.05em;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.sign-up {
+    background: #a8fcff;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* אנימציה */
+button:hover {
+    transform: translatey(3px);
+    box-shadow: none;
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+
+@keyframes ani9 {
+    0% {
+        transform: translateY(3px);
+    }
+
+    100% {
+        transform: translateY(5px);
+    }
+}
+.log-in{
+    font-size: 20px;
+    margin-top: 15%;
+}
+.sign-up{
+    font-size: 20px;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 5px; */
+}
+#allLogin
+{
+    background-color: white;
+   margin-left: 140%;
+   margin-top: 20%;
+}
+.login
+{
+  text-align: center;
+}
+.glow
+{
+    color: white;
+   
+}
+
+
+pre
+{
+    background-color: white;
+    width: 550px;
+    height: 550px;
+    margin-left: 130%;
+    margin-top: 20%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+
+
